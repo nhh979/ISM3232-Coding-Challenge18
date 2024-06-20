@@ -1,38 +1,56 @@
-.App {
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.App h1 {
+  font-family: cursive;
+  font-size: 50px;
+  color: rgb(223, 7, 7);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  font-family: cursive;
+  font-size: 30px;
+  color: rgb(227, 87, 0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.ratingButton {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: lightcoral;
   color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.ratingButton:hover {
+  background-color: #60c6ae;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+select {
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: firebrick;
+}
+
+.message{
+  font-family: Brush Script Std, cursive;
+  font-size: 25px;
+  color: rgb(88, 75, 75);
+  font-style: italic;
 }
