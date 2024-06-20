@@ -1,3 +1,6 @@
+//Hoang Nguyen
+//U12840485
+
 import {useState} from 'react'
 import UploadButton from './UploadButton.js'
 import MovieSelector from './MovieSelector.js'
